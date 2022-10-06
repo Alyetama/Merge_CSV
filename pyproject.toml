@@ -1,9 +1,11 @@
 [tool.poetry]
 name = "merge_csv"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Simple Program to Merge Multiple CSV Files Into One File"
-authors = ["Alyetama <56323389+Alyetama@users.noreply.github.com>"]
+authors = ["Mohammad Alyetama <malyetama@pm.me>"]
 license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Alyetama/Merge_CSV"
 
 [tool.poetry.dependencies]
 python = "^3.6"
