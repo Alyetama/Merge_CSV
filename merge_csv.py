@@ -28,7 +28,7 @@ def merge_csv():
         event, values = window.read()
 
         if event == 'Browse':
-            files = list(askopenfilenames(title='Open ".csv" Files'))
+            files = sorted(list(askopenfilenames(title='Open ".csv" Files')))
             if any('.csv' not in x.lower() for x in files):
                 sg.Popup('You can only select CSV files!')
 
