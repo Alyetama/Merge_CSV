@@ -1,14 +1,13 @@
 # Merge CSV
 
-## Installation on Linux/macOS
+## Installation
 ```shell
-$ git clone "https://github.com/Alyetama/Merge_CSV.git" && \
-    cd Merge_CSV; bash install.sh
+pip install merge_csv
 ```
 
 ## Usage
 ```shell
-$ merge_csv
+mcsv  # or merge_csv
 ```
 
 ![screenshot](static/screenshot.png)

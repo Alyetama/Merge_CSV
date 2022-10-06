@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "merge_csv"
+version = "0.1.0"
+description = "A Simple Program to Merge Multiple CSV Files Into One File"
+authors = ["Alyetama <56323389+Alyetama@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+PySimpleGUI = "^4.60.3"
+pandas = "^1.4.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+merge_csv = 'merge_csv:merge_csv.merge_csv'
+mcsv = 'merge_csv:merge_csv.merge_csv'
